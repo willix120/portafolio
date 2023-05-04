@@ -85,25 +85,25 @@ body {
 }
 
 .profile-card {
-  padding: 15px 30px;
+  padding: 15px 20%;
   background-color: #686868;
   color: #F2F2F2;
 }
 
 .profile-card__image {
-  width: 300px;
+  width: 20vw;
   height: auto;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 3px 8px rgba(0, 0, 0, .8);
-  margin: 1rem 0;
+  margin: 1rem 0 3rem 1rem;
 }
 
 .profile-card__title {
   font-size: 32px;
   font-weight: 600;
   line-height: 34px;
-  margin-bottom: 24px;
+  margin-bottom: 3rem;
 }
 
 .profile-card__content {
