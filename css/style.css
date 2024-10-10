@@ -30,8 +30,6 @@ a:hover {
  * Base structure
  */
 body {
-  display: -ms-flexbox;
-  display: flex;
   color: black;
   box-shadow: inset 0 0 300px rgba(0, 0, 0, .3);
   font-family: 'Roboto';
@@ -122,4 +120,28 @@ body {
 
 #volver {
   margin: 20px 0;
+}
+
+.works-list {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.work-card {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.work-card__content {
+  width: 100%;
+}
+
+.work-card__image {
+  max-width: 30vw;
+}
+
+.lead {
+  padding: 2rem;
 }
