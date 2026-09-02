@@ -3,71 +3,424 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Portafolio de Williams Montes de oca, Desarrollador Web">
+    <meta name="description" content="Portafolio de Williams Montes de oca, Desarrollador Web Fullstack. Especialista en JavaScript, PHP, Laravel, Vue.js, Angular, Shopify, Directus y automatización con n8n.">
     <meta name="author" content="Williams Montes de oca">
     <link rel="icon" type="image/png" href="wmlogo.png">
 
-    <title>willix120 - Williams Montes de oca</title>
+    <title>willix120 - Williams Montes de oca | Desarrollador Web Fullstack</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
   </head>
 
-  <body class="text-center">
-
-    <div class="d-flex flex-column">
-      <header class="masthead">
-        <div class="inner">
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="index.html">Inicio</a>
-            <a class="nav-link" href="trabajos.html">Algunos de mis trabajos</a>
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </nav>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <a class="navbar__brand" href="#inicio">willix120</a>
+        <div class="navbar__links">
+          <a class="navbar__link" href="#inicio">Inicio</a>
+          <a class="navbar__link" href="#sobre-mi">Sobre mí</a>
+          <a class="navbar__link" href="#habilidades">Habilidades</a>
+          <a class="navbar__link" href="#proyectos">Proyectos</a>
+          <a class="navbar__link" href="#contacto">Contacto</a>
         </div>
-      </header>
+      </div>
+    </nav>
 
-      <main role="main" class="profile-card">
-        <img class="profile-card__image" src="img/mi_foto_perfil.jpg" alt="Foto de Perfil Williams Montes de oca"/>
-        <h1 class="profile-card__title">Hi, I'm Williams Montes de oca</h1>
-        <p class="profile-card__content">Soy Desarrollador Web Fullstack con amplia experiencia en tecnologías como HTML5, CSS3, Javascript, Typescript y lenguajes del lado servidor como PHP, Javascript (node.js).</p>
-        <p class="profile-card__content">A lo largo de mi carrera he participado en multitud de proyectos que han involucrado la implementación de frameworks como Laravel, Vue, Angular. He trabajado sobre plataformas ecommerce como Shopify, Wordpress, Directus.</p>
-        <p class="profile-card__content">Me gusta siempre estar aprendiendo las novedades sobre los distintos lenguajes de programación, trabajar en equipo y participar en grandes desarrollos que generan un gran impacto.</p>
-      </main>
-
-      <footer class="mastfoot">
-        <p>Me puedes encontrar en</p>
-        <div class="inner">
-          <a 
-            target="_blank" 
-            href="https://codepen.io/willix120" 
-            class="btn btn-lg btn-secondary">
-              <i class="fab fa-codepen"></i>
-          </a>
-          <a 
-            target="_blank" 
-            href="https://twitter.com/willix120" 
-            class="btn btn-lg btn-secondary">
-              <i class="fab fa-twitter"></i>
-          </a>
-          <a 
-            target="_blank" 
-            href="https://linkedin.com/in/willix120" 
-            class="btn btn-lg btn-secondary">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a 
-            target="_blank" 
-            href="https://github.com/willix120" 
-            class="btn btn-lg btn-secondary">
-            <i class="fab fa-github"></i>
-          </a>
+    <header class="hero" id="inicio">
+      <div class="hero__content">
+        <img class="hero__image" src="img/mi_foto_perfil.jpg" alt="Foto de perfil de Williams Montes de oca"/>
+        <p class="hero__hello">Hola, soy</p>
+        <h1 class="hero__title">Williams <span class="gradient-text">Montes de oca</span></h1>
+        <p class="hero__subtitle">
+          Desarrollador Web Fullstack con más de 4 años de experiencia creando aplicaciones,
+          APIs y tiendas ecommerce con JavaScript, PHP, Laravel, Vue.js, Angular y Shopify.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#proyectos"><i class="fas fa-briefcase"></i> Ver proyectos</a>
+          <a class="btn btn--ghost" href="#contacto"><i class="fas fa-envelope"></i> Contáctame</a>
         </div>
-      </footer>
-    </div>
+        <div class="hero__cta">
+          <a class="btn btn--icon" target="_blank" href="https://github.com/willix120" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a class="btn btn--icon" target="_blank" href="https://linkedin.com/in/willix120" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a class="btn btn--icon" target="_blank" href="https://twitter.com/willix120" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn--icon" target="_blank" href="https://codepen.io/willix120" aria-label="CodePen"><i class="fab fa-codepen"></i></a>
+        </div>
+      </div>
+    </header>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <main>
+      <section class="section" id="sobre-mi">
+        <div class="container">
+          <h2 class="section__title">Sobre <span class="gradient-text">mí</span></h2>
+          <p class="section__subtitle">Desarrollador apasionado por aprender y construir soluciones que generan impacto.</p>
+
+          <div class="about__grid">
+            <img class="about__image" src="img/mi_foto_perfil.jpg" alt="Williams Montes de oca"/>
+            <div class="about__content">
+              <p class="about__text">
+                Soy Desarrollador Web Fullstack con más de 4 años de experiencia en proyectos personales,
+                equipos de desarrollo para empresas y clientes particulares.
+              </p>
+              <p class="about__text">
+                He trabajado con frameworks frontend y backend como Vue.js, Laravel, Angular y Symfony,
+                y durante más de un año me he dedicado al desarrollo de tiendas sobre la plataforma Shopify,
+                trabajando con Liquid (sections y snippets), apps privadas de Shopify (APIs, Webhooks),
+                Shopify CLI y Theme Kit.
+              </p>
+              <p class="about__text">
+                Me gusta estar siempre en constante aprendizaje: automatización de flujos con n8n,
+                integración de modelos de IA mediante APIs, y plataformas headless como Directus
+                (incluyendo el desarrollo de extensiones para Directus).
+              </p>
+              <div class="about__stats">
+                <div class="stat">
+                  <div class="stat__value">4+</div>
+                  <div class="stat__label">Años de experiencia</div>
+                </div>
+                <div class="stat">
+                  <div class="stat__value">6+</div>
+                  <div class="stat__label">Tiendas Shopify</div>
+                </div>
+                <div class="stat">
+                  <div class="stat__value">10+</div>
+                  <div class="stat__label">Proyectos realizados</div>
+                </div>
+              </div>
+              <a class="btn btn--primary" href="#contacto"><i class="fas fa-paper-plane"></i> Hablemos</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="habilidades">
+        <div class="container">
+          <h2 class="section__title">Mis <span class="gradient-text">habilidades</span></h2>
+          <p class="section__subtitle">Tecnologías con las que construyo productos web de principio a fin.</p>
+
+          <div class="skills__grid">
+            <article class="skill-card">
+              <div class="skill-card__icon"><i class="fab fa-html5"></i></div>
+              <h3 class="skill-card__title">Frontend</h3>
+              <p class="skill-card__text">Interfaces modernas, reactivas y responsive.</p>
+              <div class="chips">
+                <span class="chip">HTML5</span>
+                <span class="chip">CSS3</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip chip--hot">Angular</span>
+                <span class="chip">Vue.js</span>
+                <span class="chip">Tailwind CSS</span>
+                <span class="chip">Astro</span>
+                <span class="chip">SCSS</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-card__icon"><i class="fas fa-server"></i></div>
+              <h3 class="skill-card__title">Backend &amp; Bases de datos</h3>
+              <p class="skill-card__text">APIs, lógica de negocio y persistencia de datos.</p>
+              <div class="chips">
+                <span class="chip">PHP</span>
+                <span class="chip">Node.js</span>
+                <span class="chip chip--hot">Laravel</span>
+                <span class="chip">Symfony</span>
+                <span class="chip">MySQL</span>
+                <span class="chip">PostgreSQL</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-card__icon"><i class="fas fa-shopping-bag"></i></div>
+              <h3 class="skill-card__title">E-commerce</h3>
+              <p class="skill-card__text">Tiendas online y personalizaciones sobre plataformas comerciales.</p>
+              <div class="chips">
+                <span class="chip chip--hot">Shopify</span>
+                <span class="chip">Liquid</span>
+                <span class="chip">Apps privadas</span>
+                <span class="chip">Webhooks</span>
+                <span class="chip">Shopify CLI</span>
+                <span class="chip">Theme Kit</span>
+                <span class="chip">WordPress</span>
+                <span class="chip">Webpack</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <div class="skill-card__icon"><i class="fas fa-robot"></i></div>
+              <h3 class="skill-card__title">Automatización &amp; Herramientas</h3>
+              <p class="skill-card__text">Flujos de trabajo automatizados e integración de servicios.</p>
+              <div class="chips">
+                <span class="chip chip--hot">n8n</span>
+                <span class="chip chip--hot">APIs de IA</span>
+                <span class="chip chip--hot">Directus</span>
+                <span class="chip chip--hot">Extensiones Directus</span>
+                <span class="chip">REST APIs</span>
+                <span class="chip">Git</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="proyectos">
+        <div class="container">
+          <h2 class="section__title">Mis <span class="gradient-text">proyectos</span></h2>
+          <p class="section__subtitle">Sistemas, aplicaciones web y tiendas ecommerce en los que he trabajado.</p>
+
+          <div class="projects__grid">
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">E-commerce</span>
+                <img src="capturas/dplusforcare/dplusforcare_home.jpg" alt="Captura de la tienda Dplusforcare">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Dplusforcare.com</h3>
+                <p class="project-card__desc">
+                  Tienda de cosméticos naturista sobre Shopify. Modificaciones de soporte,
+                  secciones y componentes personalizados.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="dplusforcare.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">E-commerce</span>
+                <img src="capturas/ledrugstoreparisien/ledrugstoreparisien_product_page.png" alt="Captura de la tienda Le Drugstore Parisien">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Ledrugstoreparisien.com</h3>
+                <p class="project-card__desc">
+                  Tienda francesa de productos de uso personal. Soporte y mejoras: ficha de producto,
+                  metafields, personalización del Sidecart (con Upsell) y del plugin Boost Product Filter &amp; Search.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="ledrugstoreparisien.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">E-commerce</span>
+                <img src="capturas/peaudouce/peaudouce_faq_list.png" alt="Captura de la tienda Peaudouce">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Peaudouce.fr</h3>
+                <p class="project-card__desc">
+                  Tienda Shopify. Formé parte del equipo de desarrollo: creación de secciones,
+                  componentes (snippets) y estilos con Responsive Design según diseño en Figma.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="peaudouce.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">E-commerce</span>
+                <img src="capturas/anatae/anatae_product_card.png" alt="Captura de la tienda Anatae">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Anatae.fr</h3>
+                <p class="project-card__desc">
+                  Tienda naturista francesa. Estilos del Design System, Product Card, Review Card,
+                  Row Icons y Announcement's Top Bar con Swiper Slider (JavaScript). Todo responsive según Figma.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="anatae.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">E-commerce</span>
+                <img src="capturas/juliette/juliette_product.png" alt="Captura de la tienda Juliette">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Juliette.com</h3>
+                <p class="project-card__desc">
+                  Tienda francesa de productos ecológicos de limpieza. Soporte y funcionalidades
+                  particulares, incluyendo un funnel de ventas para compra única o suscripción.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="juliette.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">E-commerce</span>
+                <img src="capturas/zetadrinks/screen2.jpg" alt="Captura de la tienda Zetadrinks">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Zetadrinks.com</h3>
+                <p class="project-card__desc">
+                  Tienda Shopify. Adaptación de estilos CSS de la app Simples Bundles &amp; Kits
+                  y funcionalidad para ocultar/mostrar selectores de variantes del bundle.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="zetadrinks.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">Web</span>
+                <img src="capturas/test-angular.jpg" alt="Captura del proyecto TeamWork List">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">TeamWork List</h3>
+                <p class="project-card__desc">
+                  Proyecto de prueba realizado en Angular y Tailwind CSS para gestión de equipos de trabajo.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" target="_blank" href="https://github.com/willix120/teamwork-list"><i class="fab fa-github"></i> Repositorio</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">Web</span>
+                <img src="capturas/test-astro-web.jpg" alt="Captura del proyecto SpaceX Launches">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">SpaceX Launches</h3>
+                <p class="project-card__desc">
+                  Proyecto realizado en Astro que se conecta con la API de SpaceX para listar los lanzamientos de la compañía aeroespacial.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" target="_blank" href="https://github.com/willix120/curso-astro-web"><i class="fab fa-github"></i> Repositorio</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">Sistema</span>
+                <img src="capturas/milab/milab_agregar_pago.jpg" alt="Captura del sistema MiLab">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">MiLab</h3>
+                <p class="project-card__desc">
+                  Sistema para gestión y control de Laboratorio Clínico: órdenes, pacientes, reportes y resultados. En uso en el Lab. Clínico José Gregorio Hernández de Carora.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="milab.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">Web</span>
+                <img src="capturas/gunzvz_web/gunzweb2.jpg" alt="Captura de la web de GunZ Vz">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">GunZ Web</h3>
+                <p class="project-card__desc">
+                  Web del servidor privado de GunZ Online (juego de shooting multiplayer). El servidor GunZ Vz estuvo online hasta el año 2014.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="gunzvz_web.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">API</span>
+                <img src="capturas/api_mindrayserver/pantalla_consola_mindrayserver.jpg" alt="Captura de Mindray Server API">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Mindray Server API</h3>
+                <p class="project-card__desc">
+                  Aplicación de consola que recibe datos de un analizador de hematologías (Mindray BC-3000 Plus) vía puerto serial y sirve una API para exportar los datos a otros sistemas.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="mindray_server_api.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">Sistema</span>
+                <img src="capturas/sistema_inventario/sistema_inventario_principal.jpg" alt="Captura del Sistema Inventario">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Sistema Inventario</h3>
+                <p class="project-card__desc">
+                  Sistema para la gestión y control de insumos médicos desarrollado para el almacén del IPASME Carora.
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="sistema_inventario.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-card__media">
+                <span class="project-card__badge">Sistema</span>
+                <img src="capturas/sirde/image4.jpg" alt="Captura del sistema SIRDE">
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">SIRDE</h3>
+                <p class="project-card__desc">
+                  Sistema de información para la recolección de datos estadísticos en el Instituto Municipal de Vialidad y Transporte Terrestre del Municipio Torres (IMVITRAT).
+                </p>
+                <div class="project-card__actions">
+                  <a class="btn btn--primary btn--sm" href="sirde.html"><i class="fas fa-images"></i> Ver detalles</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <p class="section__subtitle" style="margin-top: 3rem;">
+            Más repositorios de práctica en mi GitHub
+            <a class="btn btn--ghost" target="_blank" href="https://github.com/willix120"><i class="fab fa-github"></i> willix120</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="contacto">
+        <div class="container">
+          <h2 class="section__title">Contacto</h2>
+          <p class="section__subtitle">¿Tienes un proyecto en mente? Hablemos.</p>
+
+          <div class="contact__card">
+            <img src="img/mi_foto_perfil.jpg" alt="Foto de perfil de Williams Montes de oca"/>
+            <h3 class="contact__title">Williams Montes de oca</h3>
+            <p class="contact__sub">Desarrollador Web Fullstack</p>
+            <div class="contact__actions">
+              <a class="btn btn--primary" href="mailto:williamsfernando@gmail.com"><i class="fas fa-envelope"></i> williamsfernando@gmail.com</a>
+              <a class="btn btn--ghost" target="_blank" href="https://www.workana.com/freelancer/efc439b152106210229458eeddce828d"><i class="fas fa-shopping-bag"></i> Perfil en Workana</a>
+            </div>
+            <div class="contact__socials">
+              <a class="btn btn--icon" target="_blank" href="https://github.com/willix120" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a class="btn btn--icon" target="_blank" href="https://linkedin.com/in/willix120" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a class="btn btn--icon" target="_blank" href="https://twitter.com/willix120" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn--icon" target="_blank" href="https://codepen.io/willix120" aria-label="CodePen"><i class="fab fa-codepen"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Williams Montes de oca · Hecho con <i class="fas fa-heart" style="color: var(--accent-1);"></i></p>
+    </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

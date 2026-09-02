@@ -3,62 +3,61 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="Williams Montes de oca - Sistema Inventario">
+    <meta name="author" content="Williams Montes de oca">
+    <link rel="icon" type="image/png" href="wmlogo.png">
     <title>Williams Montes de oca | Sistema Inventario</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/viewer.min.css">
   </head>
 
-  <body class="text-center">
-
-    <div class="mx-auto flex-column">
-      <header class="masthead">
-        <div class="inner">
-          <h3 class="masthead-brand">willix120</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link" href="index.html">Inicio</a>
-            <a class="nav-link active" href="trabajos.html">Algunos de mis trabajos</a>
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </nav>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <a class="navbar__brand" href="index.html">willix120</a>
+        <div class="navbar__links">
+          <a class="navbar__link" href="index.html#inicio">Inicio</a>
+          <a class="navbar__link" href="index.html#habilidades">Habilidades</a>
+          <a class="navbar__link is-active" href="index.html#proyectos">Proyectos</a>
+          <a class="navbar__link" href="index.html#contacto">Contacto</a>
         </div>
-      </header>
+      </div>
+    </nav>
 
-      <main role="main" class="main-content">
-      	<h3>Sistema Inventario</h3>
-      	<p>Sistema para la gestión y control de insumos médicos desarrollado para el almacén del IPASME Carora, Edo. Lara, Venezuela</p>
-        <p class="lead">Algunas capturas de pantalla del sistema</p>
-      	<div id="capturasPantalla">
-      		<img src="capturas/sistema_inventario/sistema_inventario_ingresar.jpg" alt="Pantalla de Login">
-      		<img src="capturas/sistema_inventario/sistema_inventario_principal.jpg" alt="Pantalla Principal">
-      		<img src="capturas/sistema_inventario/sistema_inventario_registrar_insumo.jpg" alt="Registrar un insumo">
-      		<img src="capturas/sistema_inventario/sistema_inventario_detalles_insumo.jpg" alt="Detalles de insumo">
-          <img src="capturas/sistema_inventario/sistema_inventario_editar_insumo.jpg" alt="Editar registro de insumo">
-      		<img src="capturas/sistema_inventario/sistema_inventario_registrar_lote.jpg" alt="Registrar nuevo lote">
-      		<img src="capturas/sistema_inventario/sistema_inventario_config_acceso.jpg" alt="Configuración de Acceso">
-          <img src="capturas/sistema_inventario/sistema_inventario_reporte.jpg" alt="Reporte de movimientos">
-      	</div>
-        <div id="volver">
-          <a href="trabajos.html" class="btn btn-secondary btn-lg"><i class="fas fa-arrow-left"></i> Volver</a>
-        </div>
+    <main role="main" class="container page text-center">
+      <h3>Sistema Inventario</h3>
+      <p>Sistema para la gestión y control de insumos médicos desarrollado para el almacén del IPASME Carora, Edo. Lara, Venezuela</p>
+      <p class="lead">Algunas capturas de pantalla del sistema</p>
+      <div id="capturasPantalla">
+        <img src="capturas/sistema_inventario/sistema_inventario_ingresar.jpg" alt="Pantalla de Login">
+        <img src="capturas/sistema_inventario/sistema_inventario_principal.jpg" alt="Pantalla Principal">
+        <img src="capturas/sistema_inventario/sistema_inventario_registrar_insumo.jpg" alt="Registrar un insumo">
+        <img src="capturas/sistema_inventario/sistema_inventario_detalles_insumo.jpg" alt="Detalles de insumo">
+        <img src="capturas/sistema_inventario/sistema_inventario_editar_insumo.jpg" alt="Editar registro de insumo">
+        <img src="capturas/sistema_inventario/sistema_inventario_registrar_lote.jpg" alt="Registrar nuevo lote">
+        <img src="capturas/sistema_inventario/sistema_inventario_config_acceso.jpg" alt="Configuración de Acceso">
+        <img src="capturas/sistema_inventario/sistema_inventario_reporte.jpg" alt="Reporte de movimientos">
+      </div>
+      <div id="volver">
+        <a href="index.html#proyectos" class="btn btn--ghost"><i class="fas fa-arrow-left"></i> Volver a proyectos</a>
+      </div>
+    </main>
 
-      </main>
+    <footer class="footer">
+      <p>© <span class="js-year"></span> Williams Montes de oca</p>
+    </footer>
 
-
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/viewer.min.js"></script>
     <script type="text/javascript">
-    	var viewer = new Viewer(document.getElementById('capturasPantalla'),{
-    		toolbar: false,
-    		rotatable: false
-    	})
+      var viewer = new Viewer(document.getElementById('capturasPantalla'), {
+        toolbar: false,
+        rotatable: false
+      });
+    </script>
+    <script type="text/javascript">
+      var yearEl = document.querySelector('.js-year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
     </script>
   </body>
 </html>

@@ -3,62 +3,61 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="Williams Montes de oca - Mindray Server API">
+    <meta name="author" content="Williams Montes de oca">
+    <link rel="icon" type="image/png" href="wmlogo.png">
     <title>Williams Montes de oca | Mindray Server API</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/viewer.min.css">
   </head>
 
-  <body class="text-center">
-
-    <div class="mx-auto flex-column">
-      <header class="masthead">
-        <div class="inner">
-          <h3 class="masthead-brand">willix120</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link" href="index.html">Inicio</a>
-            <a class="nav-link active" href="trabajos.html">Algunos de mis trabajos</a>
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </nav>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <a class="navbar__brand" href="index.html">willix120</a>
+        <div class="navbar__links">
+          <a class="navbar__link" href="index.html#inicio">Inicio</a>
+          <a class="navbar__link" href="index.html#habilidades">Habilidades</a>
+          <a class="navbar__link is-active" href="index.html#proyectos">Proyectos</a>
+          <a class="navbar__link" href="index.html#contacto">Contacto</a>
         </div>
-      </header>
+      </div>
+    </nav>
 
-      <main role="main" class="main-content">
-      	<h3>Mindray Server API</h3>
-      	<p>Aplicación de consola, que recibe datos enviados desde un equipo analizador para hematologías (mindray bc-3000 plus) mediante puerto serial y sirve una API para exportar los datos a otros sistemas.</p>
-        <p class="lead">Algunas capturas de pantalla del sistema</p>
-      	<div id="capturasPantalla">
-      		<img src="capturas/api_mindrayserver/pantalla_consola_mindrayserver.jpg" alt="Pantalla principal de la aplicación de consola.">
-          <img src="capturas/api_mindrayserver/mindrayserver_api_seleccion_examenes_analizador.jpg" alt="Pantalla de muestras analizadas por el equipo.">
-          <img src="capturas/api_mindrayserver/mindrayserver_api_opciones_transferir_hematologias_seleccionadas.jpg" alt="Seleccionando la opción de transmitir seleccionados." style="height: 150px; width: 100px;">
-          <img src="capturas/api_mindrayserver/mindrayserver_api_transmitiendo_hematologia.jpg" alt="Transmitiendo la selección de muestras." style="height: 150px; width: 100px;">
-          <img src="capturas/api_mindrayserver/mindrayserver_api_recibe_datos_hematologia.jpg" alt="Recibiendo muestras desde la aplicación.">
-          <img src="capturas/api_mindrayserver/mindrayserver_api_ejemplo_respuesta_json.jpg" alt="Ejemplo de respuesta JSON de la API">
-      	</div>
-        <p class="lead">Script Cliente en PHP</p>
-        <p><a target="_blank" href="https://github.com/willix120/mindray_server_client_api" class="btn btn-secondary">Ir a repositorio en Github</a></p>
-        <div id="volver">
-          <a href="trabajos.html" class="btn btn-secondary btn-lg"><i class="fas fa-arrow-left"></i> Volver</a>
-        </div>
+    <main role="main" class="container page text-center">
+      <h3>Mindray Server API</h3>
+      <p>Aplicación de consola, que recibe datos enviados desde un equipo analizador para hematologías (mindray bc-3000 plus) mediante puerto serial y sirve una API para exportar los datos a otros sistemas.</p>
+      <p class="lead">Algunas capturas de pantalla del sistema</p>
+      <div id="capturasPantalla">
+        <img src="capturas/api_mindrayserver/pantalla_consola_mindrayserver.jpg" alt="Pantalla principal de la aplicación de consola.">
+        <img src="capturas/api_mindrayserver/mindrayserver_api_seleccion_examenes_analizador.jpg" alt="Pantalla de muestras analizadas por el equipo.">
+        <img src="capturas/api_mindrayserver/mindrayserver_api_opciones_transferir_hematologias_seleccionadas.jpg" alt="Seleccionando la opción de transmitir seleccionados.">
+        <img src="capturas/api_mindrayserver/mindrayserver_api_transmitiendo_hematologia.jpg" alt="Transmitiendo la selección de muestras.">
+        <img src="capturas/api_mindrayserver/mindrayserver_api_recibe_datos_hematologia.jpg" alt="Recibiendo muestras desde la aplicación.">
+        <img src="capturas/api_mindrayserver/mindrayserver_api_ejemplo_respuesta_json.jpg" alt="Ejemplo de respuesta JSON de la API">
+      </div>
+      <p class="lead">Script Cliente en PHP</p>
+      <p><a target="_blank" href="https://github.com/willix120/mindray_server_client_api" class="btn btn--ghost"><i class="fab fa-github"></i> Ir a repositorio en Github</a></p>
+      <div id="volver">
+        <a href="index.html#proyectos" class="btn btn--ghost"><i class="fas fa-arrow-left"></i> Volver a proyectos</a>
+      </div>
+    </main>
 
-      </main>
+    <footer class="footer">
+      <p>© <span class="js-year"></span> Williams Montes de oca</p>
+    </footer>
 
-
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/viewer.min.js"></script>
     <script type="text/javascript">
-    	var viewer = new Viewer(document.getElementById('capturasPantalla'),{
-    		toolbar: false,
-    		rotatable: false
-    	})
+      var viewer = new Viewer(document.getElementById('capturasPantalla'), {
+        toolbar: false,
+        rotatable: false
+      });
+    </script>
+    <script type="text/javascript">
+      var yearEl = document.querySelector('.js-year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
     </script>
   </body>
 </html>
