@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Williams Montes de oca - gesden-api, API en Go para la Clínica Dental Manosalbas">
+    <meta name="author" content="Williams Montes de oca">
+    <link rel="icon" type="image/png" href="wmlogo.png">
+    <title>Williams Montes de oca | gesden-api</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <a class="navbar__brand" href="index.html">willix120</a>
+        <div class="navbar__links">
+          <a class="navbar__link" href="index.html#inicio">Inicio</a>
+          <a class="navbar__link" href="index.html#habilidades">Habilidades</a>
+          <a class="navbar__link is-active" href="index.html#proyectos">Proyectos</a>
+          <a class="navbar__link" href="index.html#contacto">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <main role="main" class="container page text-center">
+      <h3>gesden-api</h3>
+      <p>API escrita en Go (Golang) para la Clínica Dental Manosalbas (Sevilla, España). Expone los endpoints que permiten interactuar con el sistema de gestión interno de la clínica, basado en el software GELITE (Gesden G5), y funciona como servicio para un chatbot: permite gestionar citas y disponibilidad entre otras operaciones. La API se conecta a la base de datos SQL Server de la clínica, incluye un mecanismo de seguridad interno que restringe el acceso únicamente a los sitios autorizados y se expone mediante un túnel seguro, ya que corre en el servidor local de la clínica.</p>
+      <p class="lead">Algunas capturas de pantalla del sistema</p>
+      <div id="capturasPantalla">
+        <img src="capturas/gesden-api/service1.png" alt="La API ejecutándose en el servidor de la clínica (GoFiber)">
+        <img src="capturas/gesden-api/code1.png" alt="Código fuente de la API en Go (main.go) con GoFiber">
+        <img src="capturas/gesden-api/services2.png" alt="La API y su túnel de acceso como servicios de Windows">
+        <img src="capturas/gesden-api/result1.png" alt="Configuración de conexión a la base de datos (.env)">
+        <img src="capturas/gesden-api/test.png" alt="Prueba inicial de los endpoints: doctores, horarios y pacientes">
+        <img src="capturas/gesden-api/test3.png" alt="Pruebas de los endpoints Get Doctors y Get Slots">
+        <img src="capturas/gesden-api/test2.png" alt="Suite completa de pruebas de los endpoints de la API">
+        <img src="capturas/gesden-api/test5.png" alt="Pruebas de los endpoints: doctores, horarios, citas y pacientes">
+        <img src="capturas/gesden-api/test4.png" alt="Respuesta JSON de pacientes devuelta por la API">
+        <img src="capturas/gesden-api/move_test.png" alt="Script de reagendamiento interactivo que consume la API">
+        <img src="capturas/gesden-api/tablas2.png" alt="Servidor SQL Server con la base de datos GELITE">
+        <img src="capturas/gesden-api/tablas.png" alt="Tablas de la base de datos GELITE consultadas por la API">
+        <img src="capturas/gesden-api/gesdeng5.png" alt="Acceso al sistema Gesden G5 (GELITE) de la clínica">
+        <img src="capturas/gesden-api/cita4.png" alt="Agenda diaria de la clínica en GELITE">
+        <img src="capturas/gesden-api/cita1.png" alt="Cita creada mediante la API en el sistema GELITE">
+        <img src="capturas/gesden-api/cita5.png" alt="Detalle de la cita gestionada a través de la API">
+        <img src="capturas/gesden-api/cita2.png" alt="Ficha de la cita creada mediante la API en GELITE">
+        <img src="capturas/gesden-api/cita3.png" alt="Vista de la agenda con las citas gestionadas por la API">
+      </div>
+      <div id="volver">
+        <a href="index.html#proyectos" class="btn btn--ghost"><i class="fas fa-arrow-left"></i> Volver a proyectos</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© <span class="js-year"></span> Williams Montes de oca</p>
+    </footer>
+
+    <script type="text/javascript" src="js/gallery.js"></script>
+    <script type="text/javascript">
+      var yearEl = document.querySelector('.js-year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

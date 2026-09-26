@@ -9,7 +9,6 @@
     <title>Williams Montes de oca | Peaudouce.fr</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/viewer.min.css">
   </head>
 
   <body>
@@ -41,13 +40,7 @@
       <p>© <span class="js-year"></span> Williams Montes de oca</p>
     </footer>
 
-    <script type="text/javascript" src="js/viewer.min.js"></script>
-    <script type="text/javascript">
-      var viewer = new Viewer(document.getElementById('capturasPantalla'), {
-        toolbar: false,
-        rotatable: false
-      });
-    </script>
+    <script type="text/javascript" src="js/gallery.js"></script>
     <script type="text/javascript">
       var yearEl = document.querySelector('.js-year');
       if (yearEl) yearEl.textContent = new Date().getFullYear();
