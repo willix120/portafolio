@@ -478,6 +478,62 @@ img {
   margin: 0.5rem 0 0.75rem;
 }
 
+/* ===================== Proyecto destacado ===================== */
+.featured {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid rgba(139, 92, 246, 0.45);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: var(--shadow);
+}
+
+.featured__media {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.featured__media img {
+  width: 100%;
+  display: block;
+}
+
+.featured__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #0b1120;
+  background: var(--gradient);
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.featured__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+}
+
+.featured__desc {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin: 0 0 1.25rem;
+}
+
+.featured .chips {
+  margin-bottom: 1.5rem;
+}
+
 /* ===================== Proyectos ===================== */
 .projects__grid {
   display: grid;
@@ -638,6 +694,11 @@ img {
   .about__grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .featured {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
   }
 
   .projects__grid {
