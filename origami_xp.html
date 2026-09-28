@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Williams Montes de oca - Origami XP, plataforma de formación corporativa para Overlap">
+    <meta name="author" content="Williams Montes de oca">
+    <link rel="icon" type="image/png" href="wmlogo.png">
+    <title>Williams Montes de oca | Origami XP (Overlap)</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <a class="navbar__brand" href="index.html">willix120</a>
+        <div class="navbar__links">
+          <a class="navbar__link" href="index.html#inicio">Inicio</a>
+          <a class="navbar__link" href="index.html#habilidades">Habilidades</a>
+          <a class="navbar__link is-active" href="index.html#proyectos">Proyectos</a>
+          <a class="navbar__link" href="index.html#contacto">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <main role="main" class="container page text-center">
+      <h3>Origami XP (Overlap)</h3>
+      <p>Proyecto de soporte para Overlap (España). Origami XP es una plataforma corporativa de formación cuyo backend está desarrollado con Laravel y consiste en un dashboard que provee los datos a un frontend construido en Angular. En este proyecto se trabajó en la creación de nuevos componentes, en mejoras al mecanismo de comunicación entre bloques y con el backend, se apoyó el desarrollo de la autenticación SSO, y se desarrolló una extensión que integra un editor completo para las páginas y sus componentes.</p>
+      <p class="lead">Algunas capturas de pantalla del sistema</p>
+      <div id="capturasPantalla">
+        <img src="capturas/origami_xp/wizard_dev.png" alt="Editor de páginas (wizard) en el entorno de desarrollo">
+        <img src="capturas/origami_xp/wizard.png" alt="Editor completo de páginas del wizard">
+        <img src="capturas/origami_xp/page_structure.png" alt="Estructura de una página y sus componentes">
+        <img src="capturas/origami_xp/editar_bloque_wizard.png" alt="Edición de un bloque desde el wizard">
+        <img src="capturas/origami_xp/edit_block_wizard_dev.png" alt="Edición de un bloque en desarrollo">
+        <img src="capturas/origami_xp/multi-tenant_wizard.png" alt="Editor con soporte multi-tenant">
+        <img src="capturas/origami_xp/configuración-de-estructura-de-página.png" alt="Configuración de la estructura de la página">
+        <img src="capturas/origami_xp/configuración-del-bloque.png" alt="Configuración de un bloque">
+        <img src="capturas/origami_xp/configuración-del-bloque-calendario.png" alt="Configuración del bloque de calendario">
+        <img src="capturas/origami_xp/preview_staging.png" alt="Vista previa de una página en el entorno de staging">
+        <img src="capturas/origami_xp/inicio-de-sesión-buglum.png" alt="Inicio de sesión con autenticación SSO (Buglum)">
+        <img src="capturas/origami_xp/no_autorizado.png" alt="Página de acceso no autorizado">
+        <img src="capturas/origami_xp/dashboard-de-análisis-de-resultados.png" alt="Dashboard de análisis de resultados">
+        <img src="capturas/origami_xp/dashboard-de-desarrollo-personal.png" alt="Dashboard de desarrollo personal">
+        <img src="capturas/origami_xp/página-publicada-en-overlap.png" alt="Página publicada en Overlap">
+        <img src="capturas/origami_xp/página-web-de-overlap.png" alt="Portal web de Overlap">
+        <img src="capturas/origami_xp/ruta-formativa-williams.png" alt="Ruta formativa de un usuario">
+        <img src="capturas/origami_xp/cursos-en-línea.png" alt="Catálogo de cursos en línea">
+        <img src="capturas/origami_xp/vista-de-etapas-jenkins.png" alt="Etapas del pipeline de integración continua en Jenkins">
+      </div>
+      <div id="volver">
+        <a href="index.html#proyectos" class="btn btn--ghost"><i class="fas fa-arrow-left"></i> Volver a proyectos</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© <span class="js-year"></span> Williams Montes de oca</p>
+    </footer>
+
+    <script type="text/javascript" src="js/gallery.js"></script>
+    <script type="text/javascript">
+      var yearEl = document.querySelector('.js-year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
