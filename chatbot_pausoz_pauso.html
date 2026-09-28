@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Williams Montes de oca - Chatbot de WhatsApp para Pausoz Pauso Podología Klinika">
+    <meta name="author" content="Williams Montes de oca">
+    <link rel="icon" type="image/png" href="wmlogo.png">
+    <title>Williams Montes de oca | Chatbot WhatsApp Pausoz Pauso</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar__inner">
+        <a class="navbar__brand" href="index.html">willix120</a>
+        <div class="navbar__links">
+          <a class="navbar__link" href="index.html#inicio">Inicio</a>
+          <a class="navbar__link" href="index.html#habilidades">Habilidades</a>
+          <a class="navbar__link is-active" href="index.html#proyectos">Proyectos</a>
+          <a class="navbar__link" href="index.html#contacto">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <main role="main" class="container page text-center">
+      <h3>Chatbot WhatsApp Pausoz Pauso</h3>
+      <p>Chatbot creado con flujos de n8n que utiliza un agente basado en GPT-4o-mini de OpenAI y se comunica con WhatsApp mediante Evolution API, desplegado en un VPS. El bot gestiona el calendario de citas de la clínica de podología en mnprogram.net mediante un RPA que expone endpoints, los cuales son controlados por el agente como herramientas.</p>
+      <p class="lead">Algunas capturas de pantalla del sistema</p>
+      <div id="capturasPantalla">
+        <img src="capturas/chatbot_pausoz_pauso/n8n.png" alt="Flujo del chatbot en n8n con el agente GPT-4o-mini">
+        <img src="capturas/chatbot_pausoz_pauso/whatsapp.png" alt="Conversación del chatbot en WhatsApp">
+        <img src="capturas/chatbot_pausoz_pauso/conversacion_whatsapp.png" alt="Conversación con el bot gestionando citas">
+        <img src="capturas/chatbot_pausoz_pauso/saludo_whatsapp.png" alt="Saludo inicial del chatbot en WhatsApp">
+        <img src="capturas/chatbot_pausoz_pauso/cambiar_cita.png" alt="Gestión de cambio de cita a través del chatbot">
+      </div>
+      <div id="volver">
+        <a href="index.html#proyectos" class="btn btn--ghost"><i class="fas fa-arrow-left"></i> Volver a proyectos</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© <span class="js-year"></span> Williams Montes de oca</p>
+    </footer>
+
+    <script type="text/javascript" src="js/gallery.js"></script>
+    <script type="text/javascript">
+      var yearEl = document.querySelector('.js-year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
